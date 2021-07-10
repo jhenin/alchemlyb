@@ -13,14 +13,18 @@ The rules for this file:
   * release numbers follow "Semantic Versioning" http://semver.org
 
 ------------------------------------------------------------------------------
-??/??/2021 xiki-tempula, orbeckst
+??/??/2021 xiki-tempula, orbeckst, jhenin
 
   * 0.5.0
 
 Enhancements
+<<<<<<< HEAD
   - postprocessors.units module for unit conversion (issue #125, PR #129).
   - pass_attrs decorator for safely passing variable (issue #125, PR #129).
   - alchemlyb.concat added to replace pd.concat (issue #125, PR #129).
+=======
+  - support for Iterleaved Double-Wide Sampling (IDWS) in NAMD
+>>>>>>> 3527ee6 (Use new NAMD/IDWS test data, improve documentation)
 
 Deprecations
 
